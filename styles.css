@@ -16,15 +16,15 @@ body, html {
 }
 
 .logo {
-    display: flex; /* Flexbox para alinear el logo y el texto */
-    align-items: center; /* Alinea verticalmente el logo y el texto */
+    display: flex;
+    align-items: center;
 }
 
 .logo-text {
-    color: #ffffff; /* Color del texto del nombre de la página */
-    margin-left: 15px; /* Espacio entre el logo y el texto */
-    font-size: 2em; /* Tamaño del texto */
-    font-weight: bold; /* Negrita para el texto */
+    color: #ffffff;
+    margin-left: 15px;
+    font-size: 2em;
+    font-weight: bold;
 }
 
 .logo-img {
