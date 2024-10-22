@@ -53,6 +53,7 @@ body, html {
 
 .hero-section p {
     font-size: 1.5em;
+    color: #666; /* Cambiado a #666 para que coincida con el color de las características */
 }
 
 .hero-section .btn {
@@ -83,7 +84,7 @@ body, html {
 .features p {
     margin: 15px 0 30px;
     font-size: 1.2em;
-    color: #666;
+    color: #666; /* Color del texto de características */
 }
 
 .feature-icon {
