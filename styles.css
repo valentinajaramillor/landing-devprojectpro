@@ -43,36 +43,16 @@ body, html {
     background-size: cover;
     background-position: center;
     padding: 100px 0;
-    color: white;
-    text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
-    position: relative; /* Para el overlay */
-}
-
-/* Overlay semitransparente */
-.hero-section::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0.7); /* Aumentar la opacidad del negro semitransparente */
-    z-index: 1; /* Asegura que el overlay esté por debajo del texto */
+    color: #333; /* Cambiado a #333 para el texto */
 }
 
 .hero-section h1 {
     font-size: 3em;
     margin-bottom: 20px;
-    position: relative; /* Para que el texto esté sobre el overlay */
-    z-index: 2; /* Llevar el texto al frente */
-    color: #333; /* Cambiado a un color similar al texto de las features */
 }
 
 .hero-section p {
     font-size: 1.5em;
-    position: relative; /* Para que el texto esté sobre el overlay */
-    z-index: 2; /* Llevar el texto al frente */
-    color: #333; /* Cambiado a un color similar al texto de las features */
 }
 
 .hero-section .btn {
