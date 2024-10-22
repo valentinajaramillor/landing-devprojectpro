@@ -56,7 +56,7 @@ body, html {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5); /* Negro semitransparente */
+    background-color: rgba(0, 0, 0, 0.7); /* Aumentar la opacidad del negro semitransparente */
     z-index: 1; /* Asegura que el overlay esté por debajo del texto */
 }
 
@@ -65,12 +65,14 @@ body, html {
     margin-bottom: 20px;
     position: relative; /* Para que el texto esté sobre el overlay */
     z-index: 2; /* Llevar el texto al frente */
+    color: #ffffff; /* Asegura que el color del texto sea blanco */
 }
 
 .hero-section p {
     font-size: 1.5em;
     position: relative; /* Para que el texto esté sobre el overlay */
     z-index: 2; /* Llevar el texto al frente */
+    color: #ffffff; /* Asegura que el color del texto sea blanco */
 }
 
 .hero-section .btn {
