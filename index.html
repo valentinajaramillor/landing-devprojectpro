@@ -4,25 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DevProjectPro - Gestión de Proyectos de Software</title>
-    <!-- Vinculamos el archivo CSS -->
     <link rel="stylesheet" href="styles.css">
-    <!-- Bootstrap para estilos predefinidos -->
+    <!-- Vinculamos Bootstrap para estilos predefinidos -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-    <!-- Encabezado -->
-    <header>
-        <div class="container">
-            <h1>DevProjectPro</h1>
-            <p>Gestión eficiente de proyectos de software para PyMEs y startups</p>
+    <!-- Encabezado con logo y navegación -->
+    <header class="main-header">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="logo">
+                <img src="logo.png" alt="Logo DevProjectPro" class="logo-img">
+            </div>
+            <nav class="nav">
+                <ul class="nav-list d-flex">
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Características</a></li>
+                    <li><a href="#">Precios</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
 
     <!-- Sección principal -->
     <section class="hero-section">
         <div class="container text-center">
-            <h2>La plataforma de gestión que tu equipo necesita</h2>
-            <p>Optimiza la planificación y ejecución de proyectos con nuestra integración de herramientas y análisis predictivo.</p>
+            <h1>Optimiza la Gestión de Proyectos con DevProjectPro</h1>
+            <p>Una plataforma completa para administrar proyectos de software con facilidad y eficiencia.</p>
             <a href="#" class="btn btn-primary">Solicita una Demo</a>
         </div>
     </section>
@@ -30,17 +38,28 @@
     <!-- Sección de características -->
     <section class="features">
         <div class="container">
-            <h3>Características Clave</h3>
-            <ul>
-                <li>Integración con herramientas como GitHub, Jira, y Slack.</li>
-                <li>Análisis predictivo para anticipar problemas y mejorar la planificación.</li>
-                <li>Interfaz intuitiva para facilitar la adopción por parte del equipo.</li>
-            </ul>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <img src="feature1.png" alt="Integración" class="feature-icon">
+                    <h3>Integración</h3>
+                    <p>Conecta tus herramientas favoritas como GitHub, Jira, y Slack.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="feature2.png" alt="Análisis Predictivo" class="feature-icon">
+                    <h3>Análisis Predictivo</h3>
+                    <p>Predice problemas y mejora la planificación con nuestros algoritmos avanzados.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="feature3.png" alt="Interfaz Intuitiva" class="feature-icon">
+                    <h3>Interfaz Intuitiva</h3>
+                    <p>Diseño fácil de usar para que todo tu equipo lo adopte rápidamente.</p>
+                </div>
+            </div>
         </div>
     </section>
 
     <!-- Pie de página -->
-    <footer>
+    <footer class="footer">
         <div class="container text-center">
             <p>&copy; 2024 DevProjectPro - Todos los derechos reservados</p>
         </div>
