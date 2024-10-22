@@ -1,82 +1,102 @@
 /* Estilos generales */
-body {
+body, html {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #f8f9fa;
 }
 
 /* Encabezado */
-header {
-    background-color: #4a90e2;
-    color: white;
+.main-header {
+    background-color: #ffffff;
     padding: 20px 0;
-    text-align: center;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-header h1 {
-    font-size: 3em;
+.logo-img {
+    max-width: 150px;
+}
+
+.nav-list {
+    list-style: none;
     margin: 0;
+    padding: 0;
 }
 
-header p {
-    font-size: 1.2em;
+.nav-list li {
+    margin-left: 20px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.nav-list a:hover {
+    color: #007bff;
 }
 
 /* Sección principal (Hero Section) */
 .hero-section {
-    background-color: #f4f4f4;
-    padding: 50px 0;
+    background-image: url('hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    color: white;
+    text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
-.hero-section h2 {
-    font-size: 2.5em;
-    color: #333;
+.hero-section h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
 }
 
 .hero-section p {
-    font-size: 1.2em;
-    margin: 20px 0;
+    font-size: 1.5em;
 }
 
-.hero-section a {
+.hero-section .btn {
     padding: 10px 30px;
     font-size: 1.2em;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+.hero-section .btn:hover {
+    background-color: #0056b3;
 }
 
 /* Sección de características */
 .features {
-    padding: 50px 0;
+    padding: 60px 0;
     background-color: #fff;
 }
 
 .features h3 {
-    font-size: 2em;
-    text-align: center;
-    margin-bottom: 30px;
+    margin-top: 20px;
+    font-size: 1.5em;
+    color: #333;
 }
 
-.features ul {
-    list-style-type: none;
-    padding: 0;
-    max-width: 600px;
-    margin: 0 auto;
-}
-
-.features li {
+.features p {
+    margin: 15px 0 30px;
     font-size: 1.2em;
-    padding: 10px 0;
-    border-bottom: 1px solid #ddd;
+    color: #666;
+}
+
+.feature-icon {
+    max-width: 80px;
+    margin-bottom: 20px;
 }
 
 /* Pie de página */
-footer {
+.footer {
     background-color: #333;
     color: white;
     padding: 20px 0;
     text-align: center;
-}
-
-footer p {
-    margin: 0;
 }
