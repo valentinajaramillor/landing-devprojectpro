@@ -133,6 +133,43 @@ body, html {
     box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
 }
 
+/* Estilo de tarjetas para secciones internas */
+.developer-benefits .col-md-4,
+.scalability-collaboration .col-md-6 {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: box-shadow 0.3s ease;
+}
+
+.developer-benefits .col-md-4:hover,
+.scalability-collaboration .col-md-6:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Títulos de tarjetas */
+.developer-benefits .col-md-4 h4, 
+.scalability-collaboration .col-md-6 h4 {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Texto de tarjetas */
+.developer-benefits .col-md-4 p, 
+.scalability-collaboration .col-md-6 p {
+    font-size: 1em;
+    color: #666;
+}
+
+/* Espacio entre secciones */
+.scalability-collaboration {
+    margin-top: 50px;
+}
+
 /* Pie de página */
 .footer {
     background-color: #333;
