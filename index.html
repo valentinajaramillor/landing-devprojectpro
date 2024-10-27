@@ -18,9 +18,9 @@
             <nav class="nav">
                 <ul class="nav-list d-flex">
                     <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Características</a></li>
-                    <li><a href="#">Precios</a></li>
-                    <li><a href="#">Contacto</a></li>
+                    <li><a href="#features">Características</a></li>
+                    <li><a href="#pricing">Precios</a></li>
+                    <li><a href="#contact">Contacto</a></li>
                 </ul>
             </nav>
         </div>
@@ -35,37 +35,110 @@
         </div>
     </section>
 
-    <!-- Sección de características -->
-    <section class="features">
+    <!-- Sección de Características Clave -->
+    <section class="features" id="features">
         <div class="container">
+            <div class="text-center mb-5">
+                <h2>Una Plataforma que Desarrolladores y Equipos Adoran</h2>
+                <p>Facilita tus flujos de trabajo con DevProjectPro, diseñada para equipos técnicos y no técnicos.</p>
+            </div>
             <div class="row text-center">
+                <!-- Gestión de Tareas Basada en Git -->
                 <div class="col-md-4">
-                    <img src="feature1.png" alt="Integración" class="feature-icon">
-                    <h3>Integración</h3>
-                    <p>Conecta tus herramientas favoritas como GitHub, Jira, y Slack.</p>
+                    <img src="feature1.png" alt="Integración Git" class="feature-icon">
+                    <h3>Gestión de Tareas Basada en Git</h3>
+                    <p>Almacena y gestiona tus tareas directamente desde tu repositorio en Git, permitiendo un flujo de trabajo transparente y rastreable.</p>
                 </div>
+                <!-- Análisis Predictivo -->
                 <div class="col-md-4">
                     <img src="feature2.png" alt="Análisis Predictivo" class="feature-icon">
                     <h3>Análisis Predictivo</h3>
-                    <p>Predice problemas y mejora la planificación con nuestros algoritmos avanzados.</p>
+                    <p>Anticipa problemas y mejora la planificación con análisis impulsados por IA que facilitan la toma de decisiones.</p>
+                </div>
+                <!-- Panel de Control Interactivo -->
+                <div class="col-md-4">
+                    <img src="feature3.png" alt="Panel de Control" class="feature-icon">
+                    <h3>Panel de Control Interactivo</h3>
+                    <p>Monitorea el estado de tus proyectos en tiempo real, con paneles que muestran métricas clave y detalles de desempeño.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Beneficios para Desarrolladores -->
+    <section class="developer-benefits">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2>Diseñado para Desarrolladores</h2>
+                <p>DevProjectPro está creado con los desarrolladores en mente, utilizando herramientas y buenas prácticas familiares.</p>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <h4>Desarrollo Local</h4>
+                    <p>Desarrolla localmente y utiliza nuestra CLI para facilitar la integración en tus pipelines de CI/CD.</p>
                 </div>
                 <div class="col-md-4">
-                    <img src="feature3.png" alt="Interfaz Intuitiva" class="feature-icon">
-                    <h3>Interfaz Intuitiva</h3>
-                    <p>Diseño fácil de usar para que todo tu equipo lo adopte rápidamente.</p>
+                    <h4>Control de Versiones en Git</h4>
+                    <p>Administra tus proyectos y tareas en GitHub, aprovechando funcionalidades como branching y PRs.</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>SDKs Intuitivos</h4>
+                    <p>Empieza a usar nuestra plataforma con SDKs en TypeScript y Python, optimizados para un inicio rápido y sin fricciones.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Escalabilidad y Colaboración -->
+    <section class="scalability-collaboration">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2>Escala y Colabora sin Problemas</h2>
+                <p>Permite la colaboración de todos los miembros del equipo, independientemente de sus habilidades técnicas.</p>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-6">
+                    <h4>Acceso Instantáneo</h4>
+                    <p>Inicia cambios en la plataforma sin requerir una cuenta de Git. Conserva un registro de auditoría incluso sin una cuenta.</p>
+                </div>
+                <div class="col-md-6">
+                    <h4>Interfaz Fácil de Usar</h4>
+                    <p>Interfaz intuitiva para crear y ejecutar proyectos, facilitando la colaboración entre miembros de cualquier nivel técnico.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Preguntas Frecuentes -->
+    <section class="faq">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2>Preguntas Frecuentes</h2>
+                <p>¿Tienes alguna pregunta? Encuentra aquí algunas respuestas rápidas.</p>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>¿Puedo desarrollar tareas localmente?</h5>
+                    <p>Sí, puedes clonar tus proyectos y trabajarlos de manera local usando nuestra CLI.</p>
+                    <h5>¿Es posible colaborar con miembros no técnicos?</h5>
+                    <p>Claro, nuestra interfaz facilita la colaboración para todos, independientemente de sus habilidades técnicas.</p>
+                </div>
+                <div class="col-md-6">
+                    <h5>¿La plataforma permite almacenar datos propios?</h5>
+                    <p>Sí, puedes almacenar tu propio conjunto de datos y obtener métricas detalladas sobre su uso.</p>
+                    <h5>¿Qué lenguajes de programación son compatibles con los SDKs?</h5>
+                    <p>Actualmente, ofrecemos SDKs para TypeScript y Python, aunque seguimos expandiendo nuestra compatibilidad.</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Pie de página -->
-    <footer class="footer">
+    <footer class="footer" id="contact">
         <div class="container text-center">
             <p>&copy; 2024 DevProjectPro - Todos los derechos reservados</p>
             <p>Technology icons created by Freepik - Flaticon</p>
             <p>Integration icons created by Good Ware - Flaticon</p>
-            <p>Predictive analysis icons created by mpanicon - Flaticon</p>
-            <p>Intuitive icons created by Freepik - Flaticon</p>
         </div>
     </footer>
 </body>
