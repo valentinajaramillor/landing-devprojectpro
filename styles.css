@@ -133,18 +133,6 @@ body, html {
     box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
 }
 
-/* Estilo de tarjetas para secciones internas */
-.developer-benefits .col-md-4,
-.scalability-collaboration .col-md-6 {
-    background-color: #ffffff;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    margin: 10px; /* Margen adicional para separar las tarjetas */
-    transition: box-shadow 0.3s ease;
-}
-
 .developer-benefits .col-md-4:hover,
 .scalability-collaboration .col-md-6:hover {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
@@ -168,6 +156,26 @@ body, html {
 /* Espacio entre secciones */
 .scalability-collaboration {
     margin-top: 50px;
+}
+
+/* Ajuste de tamaño dinámico para las tarjetas */
+.developer-benefits .col-md-4,
+.scalability-collaboration .col-md-6 {
+    flex: 1 1 30%; /* Permite que las tarjetas ocupen un ancho del 30% y se ajusten de forma flexible */
+    max-width: 300px; /* Limita el ancho máximo para evitar tarjetas muy grandes */
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    transition: box-shadow 0.3s ease;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centra las tarjetas en el contenedor */
 }
 
 /* Estilo de la sección de Preguntas Frecuentes */
